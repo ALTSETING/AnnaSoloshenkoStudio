@@ -161,8 +161,20 @@ body {
 }
 
 .logo {
-  width: 250px; /* або підбери інше значення під твоє фото */
+  width: 250px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
